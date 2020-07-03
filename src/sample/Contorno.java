@@ -14,7 +14,7 @@ public class Contorno {
 
     @FXML
     private void addScene(ActionEvent event)throws IOException {
-        Parent view2 = FXMLLoader.load(getClass().getResource("contorno.fxml"));
+        Parent view2 = FXMLLoader.load(getClass().getResource("Ventanas/Mallado.fxml"));
 
         Scene scene2 = new Scene(view2);
 

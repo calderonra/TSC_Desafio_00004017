@@ -14,11 +14,12 @@ public class window2 {
 
     @FXML
     private void addScene(ActionEvent event)throws IOException {
-        Parent view2 = FXMLLoader.load(getClass().getResource("window3.fxml"));
+        Parent view2 = FXMLLoader.load(getClass().getResource("Ventanas/window3.fxml"));
 
         Scene scene2 = new Scene(view2);
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+
         window.setScene(scene2);
         window.show();
     }

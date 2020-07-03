@@ -8,13 +8,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 public class Window3 {
     @FXML
     private void addScene(ActionEvent event)throws IOException {
-        Parent view2 = FXMLLoader.load(getClass().getResource("Dominio.fxml"));
+        Parent view2 = FXMLLoader.load(getClass().getResource("Ventanas/preDom.fxml"));
 
         Scene scene2 = new Scene(view2);
 

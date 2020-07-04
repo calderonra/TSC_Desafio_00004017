@@ -1,0 +1,7 @@
+#pana {
+    -fx-background-image: url("../Resources/PreCont.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 640 480;
+    -fx-background-position: center center;
+
+}

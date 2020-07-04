@@ -1,4 +1,4 @@
-package sample.MEF;
+package sample.matriz;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,11 +10,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class Paso62 {
-
+public class Matriz7 {
     @FXML
-    private void addS(ActionEvent event)throws IOException {
-        Parent view2 = FXMLLoader.load(getClass().getResource("../Ventanas/intromatriz.fxml"));
+    private void dda(ActionEvent event)throws IOException {
+        Parent view2 = FXMLLoader.load(getClass().getResource("../Ventanas/matriz8.fxml"));
 
         Scene scene2 = new Scene(view2);
 
